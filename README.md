@@ -1,4 +1,5 @@
 # Endoscopy Image Segmentation using U-Net
+[![GitHub license](https://img.shields.io/github/license/jassatish/Endoscopic-Landmark-and-Polyp-Detection-Using-Kvasir-Dataset)](https://github.com/jassatish/Endoscopic-Landmark-and-Polyp-Detection-Using-Kvasir-Dataset/blob/main/LICENSE)
 
 This project implements a U-Net model for segmenting medical images from endoscopic procedures. The model is trained to identify and isolate key regions within endoscopic images, which can assist in diagnosing conditions in the gastrointestinal tract.
 ## Dataset
