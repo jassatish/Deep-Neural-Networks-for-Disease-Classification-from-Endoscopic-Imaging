@@ -47,8 +47,6 @@ The GI tract is prone to various diseases, and early detection is vital. Traditi
 - [Grad-CAM Explainability](#grad-cam-explainability)
 - [How to Run](#how-to-run)
 - [Citation](#citation)
-- [References](#references)
-- [License](#license)
 - [Contact](#contact)
 
 ---
@@ -207,7 +205,21 @@ Grad-CAM heatmaps provide insight into model attention, validating that predicti
 
 ---
 
-**Optional:**  
-Add a “Launch in Colab” badge if you want!  
-```markdown
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jassatish/Deep-Neural-Networks-for-Disease-Classification-from-Endoscopic-Imaging/blob/main/endoscopy.ipynb)
+
+---
+
+## 📖 Citation
+
+If you use this work, **please cite:**
+
+```bibtex
+@inproceedings{jaiswal2024deep,
+  title={Deep Neural Networks for Disease Classification from Endoscopic Imaging},
+  author={Chaudhary, Shatrudhan and Roy, Mithu and Aryal, Rupak and Mahesh, T R and Dhungana, Pragyan and Rajbanshi, Ranjan Kumar},
+  booktitle={2024 International Conference on Emerging Research in Computational Science (ICERCS)},
+  year={2024},
+  publisher={IEEE},
+  doi={10.1109/ICERCS57790.2024.10895860},
+  url={https://ieeexplore.ieee.org/document/10895860}
+}
