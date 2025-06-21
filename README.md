@@ -171,21 +171,43 @@ Grad-CAM heatmaps provide insight into model attention, validating that predicti
 
 ## 💻 How to Run
 
-```bash
-# 1. Clone this repo
-git clone https://github.com/jassatish/Deep-Neural-Networks-for-Disease-Classification-from-Endoscopic-Imaging.git
-cd Deep-Neural-Networks-for-Disease-Classification-from-Endoscopic-Imaging
+1. **Clone this repo**
+    ```bash
+    git clone https://github.com/jassatish/Deep-Neural-Networks-for-Disease-Classification-from-Endoscopic-Imaging.git
+    cd Deep-Neural-Networks-for-Disease-Classification-from-Endoscopic-Imaging
+    ```
 
-# 2. [Optional] Setup virtual environment
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate
+2. **[Optional] Create & activate a virtual environment**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # or venv\Scripts\activate on Windows
+    ```
 
-# 3. Install requirements
-pip install -r requirements.txt
+3. **Install all required dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
+    *(If you don't have a requirements.txt, list the key packages, e.g. `pip install numpy pandas matplotlib tensorflow keras scikit-learn seaborn`)*
 
-# 4. Download KVASIR dataset, place in /data
-# 5. Train model
-python train.py
+4. **Download the [KVASIR dataset](https://datasets.simula.no/kvasir/) and place the images in a folder called `/data` (or update the path in the notebook if needed).**
 
-# 6. Evaluate & visualize
-python evaluate.py
+5. **Open and run the Jupyter notebook**
+    ```bash
+    jupyter notebook endoscopy.ipynb
+    ```
+    - Or open `endoscopy.ipynb` with **VS Code**/**JupyterLab**/**Colab** and run all cells.
+
+6. **Follow the notebook prompts to train, evaluate, and visualize the results.**
+
+---
+
+**Note:**  
+- All training, evaluation, and visualization code is inside `endoscopy.ipynb`.
+- For help or troubleshooting, see the comments and section headers in the notebook.
+
+---
+
+**Optional:**  
+Add a “Launch in Colab” badge if you want!  
+```markdown
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jassatish/Deep-Neural-Networks-for-Disease-Classification-from-Endoscopic-Imaging/blob/main/endoscopy.ipynb)
