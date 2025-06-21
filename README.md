@@ -9,7 +9,7 @@
 ---
 
 > **Official code for the IEEE-published paper:**  
-> [Deep Neural Networks for Disease Classification from Endoscopic Imaging](https://ieeexplore.ieee.org/document/10895860), presented at [ICERCS 2024](https://www.karpagam.edu.in/icer-cs/), Coimbatore, India.
+> [Deep Neural Networks for Disease Classification from Endoscopic Imaging](https://ieeexplore.ieee.org/document/10895860), presented at [ICERCS 2024](https://icercs.com), Coimbatore, India.
 
 ---
 
@@ -60,7 +60,7 @@ Gastrointestinal (GI) diseases are a global health burden, and **early detection
 
 **Highlights:**
 - U-Net-based model for segmentation/classification
-- Validated on the [KVASIR dataset](https://datasets.simula.no/kvasir/)
+- Validated on the [KVASIR dataset](https://www.kaggle.com/datasets/abdallahwagih/kvasir-dataset-for-classification-and-segmentation)
 - Transfer learning and data augmentation for robust results
 - High clinical relevance and transparency via Grad-CAM
 
@@ -68,7 +68,7 @@ Gastrointestinal (GI) diseases are a global health burden, and **early detection
 
 ## 📂 Dataset
 
-- **KVASIR:** Multi-class annotated GI endoscopic images ([dataset link](https://datasets.simula.no/kvasir/))
+- **KVASIR:** Multi-class annotated GI endoscopic images ([dataset link](https://www.kaggle.com/datasets/abdallahwagih/kvasir-dataset-for-classification-and-segmentation))
 - **Preprocessing:** Images resized to 256×256, normalization, augmentation (rotation, flip, zoom)
 
 ---
